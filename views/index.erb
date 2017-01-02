@@ -1,0 +1,6 @@
+<% items.each do |item| %>
+  <h4><%= item.title %></h4>
+  <% item.folders.each do |folder| %>
+    <%= folder %><br>
+  <% end %>
+<% end %>
